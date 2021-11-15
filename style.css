@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Sora', sans-serif;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+.background {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/91b2wbp6H0L.jpg");
+	background-position: center;
+}
+
+.bird {
+	height: 100px;
+	width: 160px;
+	position: fixed;
+	top: 40vh;
+	left: 30vw;
+	z-index: 100;
+}
+
+.pipe_sprite {
+	position: fixed;
+	top: 40vh;
+	left: 100vw;
+	height: 70vh;
+	width: 6vw;
+	background-image: url("https://2paragraphs.com/wp-content/uploads/2020/11/Skai-DWTS.jpg");
+	background-position: center;
+}
+
+.message {
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 10vh;
+	font-weight: 100;
+	color: #d319f2;
+	top: 12vh;
+	left: 20vw;
+	text-align: center;
+}
+
+.score {
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 10vh;
+	font-weight: 100;
+	color: #d319f2;
+	top: 0;
+	left: 0;
+}
+
+
+.score_val {
+	color: #d319f2;
+}
